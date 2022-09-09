@@ -1,0 +1,580 @@
+*{
+    box-sizing: border-box;
+    
+   
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 25px;
+    
+    
+}
+body{
+    
+    margin: 0px;
+    background-color:#cc481f;
+    background-image: url('imags/svg_20220825_051031_0000.svg'),url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(1\).svg'), url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(2\).svg');
+    background-image: url('https://drive.google.com/uc?id=1bvCCoEjOC7HHRm3HNmts6XQHd1auqRcl'),url('https://drive.google.com/uc?id=1KrtYC9jTx1J43-5dl44kO1pP8Hs2mah8'),url('https://drive.google.com/uc?id=1btvq7uVvrxHNCyyFY8mMeYo-rgc7tOK8');
+    background-size: 900px ,900px,900px;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: -20px -80px,630px -175px, 50px -250px;
+   
+    
+    
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    
+   padding: 20px;
+   margin: 20px;
+   
+}
+
+nav{
+    
+   margin: 20px;
+   
+}
+nav a {
+    
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+   
+}
+
+a:hover{
+    background-color: #01488d;
+    border-radius: 6px;
+    
+    
+}
+a:focus{
+    background-color: #01488d;
+    border-radius: 6px;
+}
+
+
+
+
+h2:hover{
+    background-color: rgb(77, 35, 35);
+}
+
+.text1{
+    float: right;
+    
+   
+    position: relative;
+    right: 325px;
+    bottom:45px;
+}
+.text1 h1{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 35px;
+    text-shadow:
+    3px 3px 0 blue,
+  -1px -1px 0 blue ,
+   1px -1px 0 blue,
+   -1px 1px 0 blue,
+    1px 1px 0 blue;
+
+}
+.text2{
+    float: right;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+    right:130px;
+    top:75px;
+}
+.text2 a {
+    color: white;
+    font: 35px;
+    background-color: #01488d;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.text2 a:hover{
+    background-color: rgb(4, 4, 188);
+}
+.img2{
+    float: right;
+    padding:0px;
+    margin: 0px;
+    position:relative;
+    bottom: 760px;
+    right: 280px;
+    
+    
+
+   
+}
+.text3{
+    float: right;
+    position: relative;
+    top:160px;
+    left: 200px;
+    
+    
+}
+.text3 h1{
+    color: white;
+    font-size: 100px;
+    margin:0px;
+    
+    text-shadow: 
+    4px 4px 0 blue,
+    -1px -1px 0 blue ,
+     1px -1px 0 blue,
+     -1px 1px 0 blue,
+      1px 1px 0 blue;
+}
+.text4{
+    float: right;
+   position: relative;
+   top: 450px;
+   left: 525px;
+   
+
+    
+   
+}
+.text4 a{
+    color: white;
+    font: 35px;
+    background-color:#01488d;
+    padding: 15px;
+    
+    border-radius: 8px;
+    text-decoration: none;
+}
+.text4 a:hover{
+    background-color: blue;
+}
+.text5{
+    float:right;
+    position: relative;
+    top:475px;
+    right: 150px;
+    
+}
+.text5 h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.text6{
+        float: right;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        top:250px;
+        right: 50px;
+}
+.text6 p{
+   color: white;
+    margin: 10px;
+     padding: 10px;
+    justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        
+
+}
+@media(max-width:1280px){
+
+    body{
+    
+        margin: 0px;
+        background-color:#cc481f;
+        background-image: url('imags/svg_20220825_051031_0000.svg'),url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(1\).svg'), url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(2\).svg');
+    background-image: url('https://drive.google.com/uc?id=1bvCCoEjOC7HHRm3HNmts6XQHd1auqRcl'),url('https://drive.google.com/uc?id=1KrtYC9jTx1J43-5dl44kO1pP8Hs2mah8'),url('https://drive.google.com/uc?id=1btvq7uVvrxHNCyyFY8mMeYo-rgc7tOK8');
+        background-size: 750px ,750px,750px;
+        background-repeat: no-repeat,no-repeat,no-repeat;
+        background-position: -20px -80px,500px -140px, 50px -250px; 
+        
+    }
+
+    li{
+        display: inline-block;
+        list-style: none;
+        
+       padding: 15px;
+       margin: 15px;
+       
+    }
+
+    nav{
+    
+        margin: 10px;
+        
+     }
+     nav a {
+         
+         padding: 5px;
+         text-decoration: none;
+         color: white;
+         text-shadow: 2px 2px 5px black;
+        
+     }
+     .text1{
+        float: right;
+        position: relative;
+        right: 280px;
+        bottom:35px;
+    }
+    .text2{
+        float: right;
+        padding: 5px;
+        margin: 5px;
+        position: relative;
+        right:120px;
+        top:75px;
+    }
+    .text2 a {
+        color: white;
+        font: 35px;
+        background-color: #01488d;
+        padding: 8px;
+        border-radius: 6px;
+        text-decoration: none;
+    
+    }
+    .text3{
+        float: right;
+        position: relative;
+        top:160px;
+        left: 160px;
+        
+        
+    }
+    .text3 h1{
+        color: white;
+        font-size: 80px;
+        margin:0px;
+        
+        text-shadow: 
+        4px 4px 0 blue,
+        -1px -1px 0 blue ,
+         1px -1px 0 blue,
+         -1px 1px 0 blue,
+          1px 1px 0 blue;
+    }
+    
+    .text4{
+        float: right;
+       position: relative;
+       top: 400px;
+       left: 435px;
+       
+    
+        
+       
+    }
+    .text4 a{
+        color: white;
+        font: 30px;
+        background-color:#01488d;
+        padding: 15px;
+        
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    .text5{
+        float:right;
+        position: relative;
+        top:400px;
+        right: 85px;
+        
+    }
+    .text5 h1{
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+}
+@media only screen and (max-width: 1024px) { 
+
+
+    body{
+    
+        margin: 0px;
+        background-color:#cc481f;
+        background-image: url('imags/svg_20220825_051031_0000.svg'),url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(1\).svg'), url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(2\).svg');
+    background-image: url('https://drive.google.com/uc?id=1bvCCoEjOC7HHRm3HNmts6XQHd1auqRcl'),url('https://drive.google.com/uc?id=1KrtYC9jTx1J43-5dl44kO1pP8Hs2mah8'),url('https://drive.google.com/uc?id=1btvq7uVvrxHNCyyFY8mMeYo-rgc7tOK8');
+        background-size: 650px ,650px,650px;
+        background-repeat: no-repeat,no-repeat,no-repeat;
+        background-position: -45px -60px,380px -130px, 50px -250px; 
+        
+    }
+
+    li{
+        display: inline-block;
+        list-style: none;
+        
+       padding: 10px;
+       margin: 10px;
+       
+    }
+
+    nav{
+    
+        margin: 5px;
+        
+     }
+     nav a {
+        font-size: 20px;
+         
+         padding: 8px;
+         text-decoration: none;
+         color: white;
+         text-shadow: 2px 2px 5px black;
+        
+     }
+     .text1{
+        
+        right: 200px;
+        bottom:20px;
+    }
+
+
+    .text1 h1{
+       
+       font-size: 30px;
+        
+    
+    }
+    .text2{
+        padding: 3px;
+        margin: 3px;
+        right:35px;
+        top:75px;
+    }
+    .text2 a {
+        
+        font: 10px;
+        
+        padding: 5px;
+        
+    
+    }
+    .text3{
+       
+        top:140px;
+        left: 190px;
+        
+        
+    }
+    .text3 h1{
+        
+        font-size: 70px;
+        
+    }
+    
+    .text4{
+       
+       top: 350px;
+       left: 445px;
+       
+       
+    }
+    .text4 a{
+        
+        font: 10px;
+        
+        padding: 8px;
+        
+        
+    }
+    .text5{
+        
+        top: 365px;
+        right: 5px;
+        
+    }
+    .text5 h1{
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+        
+    }
+
+    .text6{
+        
+        margin: 8px;
+        padding: 8px;
+        top:240px;
+        right: 10px;
+}
+.text6 p{
+   
+    margin: 8px;
+     padding: 8px;
+    
+        font-size: 15px;
+        
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 440px){
+
+    nav{
+    
+        margin: 10px;
+        padding:20px;
+        width: 900px;
+        
+     }
+     li{
+        
+        padding: 1px;
+        margin:10px;
+     }
+     nav a {
+       
+        font-size: 20px;
+         
+         padding: 5px;
+
+         
+    
+     }
+
+     .text1{
+        float: right;
+        
+       
+        position: relative;
+        left: 330px;
+        bottom:25px;
+    }
+    .text1 h1{
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        font-size: 35px;
+        text-shadow:
+        3px 3px 0 blue,
+      -1px -1px 0 blue ,
+       1px -1px 0 blue,
+       -1px 1px 0 blue,
+        1px 1px 0 blue;
+    
+    }
+
+
+     body{
+    
+        background-image: url('imags/svg_20220825_051031_0000.svg'),url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(1\).svg'), url('imags/Learn\ Graphic\ Design\ Online\ with\ Orange\ Background\ \(card\ \(landscape\)\)\ \(2\).svg');
+    background-image: url('https://drive.google.com/uc?id=1bvCCoEjOC7HHRm3HNmts6XQHd1auqRcl'),url('https://drive.google.com/uc?id=1KrtYC9jTx1J43-5dl44kO1pP8Hs2mah8'),url('https://drive.google.com/uc?id=1btvq7uVvrxHNCyyFY8mMeYo-rgc7tOK8');
+       
+        background-size: 800px ,700px,800px;
+        background-repeat: no-repeat,no-repeat,no-repeat;
+        background-position: -150px -80px,240px -115px, 50px -250px;
+       
+        
+        
+    }
+
+    .text2{
+        
+        padding: 3px;
+        margin: 3px;
+        left:530px;
+        top:75px;
+    }
+    .text2 a {
+        
+        font: 10px;
+        
+        padding: 5px;
+        
+    
+    }
+
+
+    .text3{
+       
+        top:50px;
+        left: 380px;
+        
+        
+    }
+    .text3 h1{
+        
+        font-size: 70px;
+        
+    }
+    
+
+
+
+    .text4{
+       float: right;
+       position:relative;
+       left: 300px;
+       top:90px;
+       
+        
+        
+     }
+     .text4 a{
+         
+         font: 10px;
+         
+         padding: 8px;
+         
+         
+     }
+
+
+     .text5{
+        float: right;
+        top: 170px;
+        right: 110px;
+        
+    }
+    .text5 h1{
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+        
+    }
+
+    .text6{
+        
+        margin: 8px;
+        padding: 8px;
+        top:65px;
+        left: 450px;
+}
+.text6 p{
+   
+    margin: 8px;
+     padding: 8px;
+    
+        font-size: 13px;
+        
+
+}
+    
+
+
+}
